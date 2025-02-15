@@ -1,27 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Carta San Valentin</title>
+    <title>San Valentín</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="tittle">
-        <h1>Feliz Dia</h1>
-        <img src="./img/pngegg.png" alt="bimo img">
-        <p>BMO te quiere saludar</p>
-        <button id="showAlert">Saluda a BMO</button>
+    <button class="start-button" onclick="startSurprise()">¿Lista para una sorpresa? ❤️</button>
 
-    <div id="customAlert" class="alert">
-        <div class="alert-content">
-            <span class="close-btn" id="closeAlert">&times;</span>
-            <h2>¡Hola!</h2>
-            <img src="./img/saludo bmo.png" alt="bimo saludo">
-            <p>Soy BMO, tu amigo de aventuras. Te deseo un feliz día!</p>
-            <button id="confirmBtn">Aceptar</button>
-        </div>
+    <div id="finalMessage" class="final-message hidden">
+        <h1>❤️ ¡Te Amo Mi Bolita! ❤️</h1>
+        <p>
+            "Hoy, en San Valentín, quiero decirte algo que llevo en el corazón: eres la persona más importante de mi vida. Cada momento a tu lado es un regalo, cada sonrisa tuya ilumina mis días y cada palabra tuya me llena de calma y alegría. Gracias por ser quien eres y por hacer que todo sea mejor."
+        </p>
+        <p>
+            !Feliz Día de San Valentín! 💑
+        </p>
     </div>
-    <script src="script.js"></script>
+    <script src='script.js'></script>
 </body>
 </html>
